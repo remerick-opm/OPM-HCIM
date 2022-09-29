@@ -34,6 +34,6 @@ plugins:
  
  show_downloads: true
   github:
-    zip_url: https://github.com/remerick-opm/OPM-HCIM.git
+    zip_url: https://github.com/remerick-opm/OPM-HCIM/archive/refs/heads/master.zip
 
 
