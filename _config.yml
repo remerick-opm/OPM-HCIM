@@ -32,8 +32,5 @@ comments:
 plugins:
  - jekyll-feed
  
- show_downloads: true
-  github:
-    zip_url: https://github.com/remerick-opm/OPM-HCIM/archive/refs/heads/master.zip
 
 
