@@ -75,6 +75,216 @@ Download all 5.2 final release products:<br>
 </thead>
 <tbody>
   <tr>
+    <td class="tg-9hzb"><span style="font-weight:bolder">5.2 CR Updates</span></td>
+    <td class="tg-dgl5"><span style="font-weight:bolder"><p title="">
+      Registry Updates:
+  </p>
+  <ul title="">
+      <li>
+          Added 46 new data elements
+          <ul>
+              <li>
+                  40 of these new elements are within the focus areas for this
+                  release, HCBRM functions A1, A7-A10
+              </li>
+          </ul>
+      </li>
+      <li>
+          Updated BRM References for all existing data elements within the
+          Registry so that the BRM Reference column contains all of the HCBRM
+          subfunction mappings for each data element
+      </li>
+      <li>
+          Deprecated three data elements upon determining that they were
+          duplicative of others
+          <ul>
+              <li>
+                  HCIM ID 15580 (FEGLI Life Insurance Benefits Enrollment Code)
+                  <ul>
+                      <li>
+                          Addressed by HCIM ID 10103 (FEGLI Life Insurance
+                          Benefits Coverage Code)
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  HCIM ID 20344 (Federal Employees' Group Life Insurance (FEGLI)
+                  Life Change Code)
+                  <ul>
+                      <li>
+                          Addressed by HCIM ID 10740 (FEGLI Life Insurance
+                          Benefits Event Code)
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  HCIM ID 20349 (Benefits Continuation Federal Employees' Group
+                  Life Insurance (FEGLI) Indicator)
+                  <ul>
+                      <li>
+                          Addressed by HCIM ID 20238 (Benefits Continuation
+                          Federal Employees Group Life Insurance FEGLI Code)
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+  </ul>
+  <p title="">
+      Domain Values (DVs):
+  </p>
+  <ul title="">
+      <li>
+          Created Domain Values for 14 added data elements:
+          <ul>
+              <li>
+                  HCIM ID 20590 (Remote/Telework Agreement Type)
+              </li>
+              <li>
+                  HCIM ID 20593 (Program and Project Management Job Identifier)
+              </li>
+              <li>
+                  HCIM ID 20602 (Performance Improvement Plan (PIP) Success
+                  Indicator)
+              </li>
+              <li>
+                  HCIM ID 20605 (EEO Complaint Basis of Alleged Discrimination)
+              </li>
+              <li>
+                  HCIM ID 20606 (EEO Complaint Issue of Alleged Discrimination)
+              </li>
+              <li>
+                  HCIM ID 20607 (EEO Complaint Hearing Requested Indicator)
+              </li>
+              <li>
+                  HCIM ID 20608 (EEO Complaint Dismissed Indicator)
+              </li>
+              <li>
+                  HCIM ID 20610 (EEO Complaint Withdrawn Indicator)
+              </li>
+              <li>
+                  HCIM ID 20626 (EEO Complaint Finding by Basis Type Code)
+              </li>
+              <li>
+                  HCIM ID 20627 (EEO Complaint Finding by Issue Type Code)
+              </li>
+              <li>
+                  HCIM ID 20628 (EEO Complaint Status Code)
+              </li>
+              <li>
+                  HCIM ID 20629 (Mission Critical Occupation (MCO) Indicator)
+              </li>
+              <li>
+                  HCIM ID 20630 (Position Mission Critical Occupation (MCO)
+                  Indicator)
+              </li>
+              <li>
+                  HCIM ID 20632 (Remarks/Comments Indicator)
+              </li>
+          </ul>
+      </li>
+      <li>
+          Added Domain Values for seven previously created data element:
+          <ul>
+              <li>
+                  HCIM ID 10460 (Appointment Type Code)
+              </li>
+              <li>
+                  HCIM ID 12374 (Time Reporting Code)
+              </li>
+              <li>
+                  HCIM ID 13107 (Employee Appointment Authority Code)
+              </li>
+              <li>
+                  HCIM ID 15600 (Person Type Code)
+              </li>
+              <li>
+                  HCIM ID 20181 (Pay Code)
+              </li>
+              <li>
+                  HCIM ID 20185 (Absence Code)
+              </li>
+              <li>
+                  HCIM ID 20362 (Remarks/Comments Purpose)
+              </li>
+          </ul>
+      </li>
+      <li>
+          Deprecated Domain Values for:
+          <ul>
+              <li>
+                  HCIM ID 15580 (FEGLI Life Insurance Benefits Enrollment Code)
+              </li>
+              <li>
+                  HCIM ID 20344 (Federal Employees' Group Life Insurance (FEGLI)
+                  Life Change Code)
+              </li>
+              <li>
+                  Previously deprecated data elements
+              </li>
+          </ul>
+      </li>
+  </ul>
+  <p title="">
+      Systems and Forms Mapping:
+  </p>
+  <ul title="">
+      <li>
+          Added systems and forms mappings according to the eOPF Interface Control
+          Document - Form Data Feed (FDF) from 7/12/2021 for the following eOPF
+          Form Data Feeds:
+          <ul>
+              <li>
+                  SF50
+              </li>
+              <li>
+                  SF52
+              </li>
+              <li>
+                  SF2809
+              </li>
+              <li>
+                  SF2810
+              </li>
+              <li>
+                  SF2817
+              </li>
+              <li>
+                  TSP1
+              </li>
+              <li>
+                  DG60
+              </li>
+          </ul>
+      </li>
+      <li>
+          Updated a mapping on SF2817 (within Section 6 – Agency Use) to account
+          for a deprecated data element:
+          <ul>
+              <li>
+                  Updated from HCIM ID 10083 (FEGLI Basic Life Insurance Benefits
+                  Effective Date) to HCIM ID 20633 (FEGLI Life Insurance Benefits
+                  Effective Date)
+              </li>
+          </ul>
+      </li>
+      <li>
+          Removed “orphaned” mappings—rows in which no HCIM data element was
+          mapped
+      </li>
+  </ul>
+  <p title="">
+      Data Visualizations:
+  </p>
+  <ul title="">
+      <li>
+          Coming soon!
+      </li>
+  </ul>
+</span>
+</td>  
+  </tr>
+  <tr>
     <td class="tg-9hzb"><span style="font-weight:bolder">v5.1 Final Updates</span></td>
     <td class="tg-dgl5"><span style="font-weight:bolder"><p>
       <strong> <br/>
