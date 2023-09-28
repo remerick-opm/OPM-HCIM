@@ -75,6 +75,248 @@ Download all 5.2 final release products:<br>
 </thead>
 <tbody>
   <tr>
+    <td class="tg-9hzb"><span style="font-weight:bolder">v5.2 Final Updates</span></td>
+    <td class="tg-dgl5"><span style="font-weight:bolder"><p>
+      Registry Updates:
+  </p>
+  <ul>
+      <li>
+          Removed two data
+          elements<a rel="nofollow" name="_ftnref1" href="https://community.max.gov/display/HumanCapital/Registry#_ftn1">[1]</a>:
+          <ol>
+              <li>
+                  HCIM ID 20589 (Bereavement Leave Hours Used):
+                  <ul>
+                      <li>
+                          Will instead leverage HCIM ID 20185 (Absence Code) and
+                          the associated Domain Value:
+                          <ul>
+                              <li>
+                                  Code = 2971
+                              </li>
+                              <li>
+                                  Translation = Bereavement Leave Used
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  HCIM ID 20591 (Remote Worksite Allowance Amount):
+                  <ul>
+                      <li>
+                          Will instead leverage HCIM ID 20181 (Pay Code) and the
+                          associated Domain Value:
+                          <ul>
+                              <li>
+                                  Code = 1491
+                              </li>
+                              <li>
+                                  Translation = Remote Worksite Allowance
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+          </ol>
+      </li>
+      <li>
+          Updated business names for two data elements:
+          <ul>
+              <li>
+                  Added “Code” to the end of the existing name for the following
+                  two data elements:
+                  <ol>
+                      <li>
+                          HCIM ID 20593 (Program and Project Management Job
+                          Identifier Code)
+                      </li>
+                      <li>
+                          HCIM ID 20590 (Remote/Telework Agreement Type Code)
+                      </li>
+                  </ol>
+              </li>
+          </ul>
+      </li>
+      <li>
+          Standardized Indicator data elements:
+          <ul>
+              <li>
+                  Business Name: added “Indicator” to the end of the name
+              </li>
+              <li>
+                  Representation Term: converted to “Indicator”
+              </li>
+              <li>
+                  Example Values: converted to “Y/N”
+              </li>
+          </ul>
+      </li>
+      <li>
+          Standardized Statutory References to use the convention “U.S.C.”
+      </li>
+      <li>
+          Reviewed External Domain Value References:
+          <ul>
+              <li>
+                  Moved six to the Notes column:
+                  <ul>
+                      <li>
+                          HCIM ID 10475 (Contact Information Email Address)
+                      </li>
+                      <li>
+                          HCIM ID 10569 (Person Social Security Number)
+                      </li>
+                      <li>
+                          HCIM ID 12894 (Street Address Line 1)
+                      </li>
+                      <li>
+                          HCIM ID 12895 (Street Address Line 2)
+                      </li>
+                      <li>
+                          HCIM ID 12896 (City Name)
+                      </li>
+                      <li>
+                          HCIM ID 12901 (Phone Number)
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                  Removed two that were obsolete or no longer necessary:
+                  <ul>
+                      <li>
+                          HCIM ID 10115 (Region Code)
+                      </li>
+                      <li>
+                          HCIM ID 12897 (State Name)
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+  </ul>
+  <p>
+      <a
+          rel="nofollow"
+          name="_ftn1"
+          href="https://community.max.gov/display/HumanCapital/Registry#_ftnref1"
+      >
+          [1]
+      </a>
+      Note: Both of the following data elements were removed instead of deprecated
+      since they first appeared in the HCIM v5.2 CR release and had not yet
+      appeared in a final release.
+  </p>
+  <p>
+      Domain Values (DVs):
+  </p>
+  <ul>
+      <li>
+          Updated business names for two data elements:
+          <ul>
+              <li>
+                  Added “Code” to the end of the existing name for the following
+                  two data elements:
+                  <ul>
+                      <li>
+                          HCIM ID 20593 (Program and Project Management Job
+                          Identifier Code)
+                      </li>
+                      <li>
+                          HCIM ID 20590 (Remote/Telework Agreement Type Code)
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+      <li>
+          Added a Domain Value for HCIM ID 11569 (Person Sex Code):
+          <ul>
+              <li>
+                  Code = X
+              </li>
+              <li>
+                  Translation = Unspecified or another gender identity
+              </li>
+          </ul>
+      </li>
+      <li>
+          Updated Code Start Date for Domain Values of HCIM ID 20593 (Program and
+          Project Management Job Identifier Code):
+          <ul>
+              <li>
+                  Updated to 8/2/2023
+              </li>
+              <li>
+                  This is the date of the
+                  <a
+                      href="https://chcoc.gov/content/program-management-improvement-accountability-act-%E2%80%93-program-and-project-management-study-%E2%80%93"
+                      rel="nofollow"
+                  >
+                      official OPM Memo
+                  </a>
+                  supporting the creation of the data element and associated
+                  domain values
+              </li>
+          </ul>
+      </li>
+      <li>
+          Standardized Indicator data element domain values:
+          <ul>
+              <li>
+                  Business Name: added “Indicator” to the end of the name
+              </li>
+              <li>
+                  Code: converted codes to Y/N
+              </li>
+          </ul>
+      </li>
+  </ul>
+  <p>
+      Systems and Forms Mapping:
+  </p>
+  <ul>
+      <li>
+          Added 10 new EHRI mappings:
+          <ul>
+              <li>
+                  EHRI Payroll (7)
+              </li>
+              <li>
+                  EHRI HR Status (2)
+              </li>
+              <li>
+                  EHRI HR Dynamics (1)
+              </li>
+          </ul>
+      </li>
+      <li>
+          Please note that some deprecated data elements remained mapped within
+          the Systems and Forms Mapping product. These will be reviewed and
+          updated in a future release.
+      </li>
+  </ul>
+  <p>
+      Data Visualizations:
+  </p>
+  <ul>
+      <li>
+          Updated interactive HCIM data visualizations to HCIM OMB MAX
+      </li>
+      <li>
+          Produced visualizations for the updated BRM References:
+          <ul>
+              <li>
+                  Multiple References - A mapping of each data element to all of
+                  its BRM References
+              </li>
+          </ul>
+      </li>
+  </ul>
+</span>
+</td>  
+  </tr>
+  <tr>
     <td class="tg-9hzb"><span style="font-weight:bolder">5.2 CR Updates</span></td>
     <td class="tg-dgl5"><span style="font-weight:bolder"><p title="">
       Registry Updates:
