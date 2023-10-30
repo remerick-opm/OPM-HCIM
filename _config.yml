@@ -17,7 +17,7 @@ minimal: true             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: HCIM Info}
-  - {file: "products.html", title: HCIM Products}
+  - {file: "product.html", title: HCIM Products}
   - {file: "reference.html", title: Reference }
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
